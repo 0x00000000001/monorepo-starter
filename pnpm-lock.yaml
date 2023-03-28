@@ -90,12 +90,12 @@ importers:
     specifiers:
       '@tsconfig/node18-strictest': ^1.0.0
       '@tsconfig/node18-strictest-esm': ^1.0.1
-      '@tsconfig/strictest': ^1.0.2
+      '@tsconfig/strictest': ^2.0.0
       '@tsconfig/vite-react': ^1.0.1
     devDependencies:
       '@tsconfig/node18-strictest': 1.0.0
       '@tsconfig/node18-strictest-esm': 1.0.1
-      '@tsconfig/strictest': 1.0.2
+      '@tsconfig/strictest': 2.0.0
       '@tsconfig/vite-react': 1.0.1
 
   packages/ui-react:
@@ -1258,8 +1258,8 @@ packages:
     resolution: {integrity: sha512-bOuNKwO4Fzbt+Su5wqI9zNHwx5C25gLnutwVQA1sBZk0cW8UjVPVcwzIUhJIIJDUx7zDEbAwdCD2HfvIsV8dYg==}
     dev: true
 
-  /@tsconfig/strictest/1.0.2:
-    resolution: {integrity: sha512-IRKlC8cnP7zMz1SDBjyIVyPapkEGWLZ6wkF6Z8T+xU80P9sO5uGXlIUvtzjx+7ehPJRWxkB6CeIDwUfyqNtYkQ==}
+  /@tsconfig/strictest/2.0.0:
+    resolution: {integrity: sha512-E0dpiZNdwO20c8d3seh7OmjAvDpwoRkTcU6M8cvggzB45Bd45tyTU2XJeA5Wfq+8NzVGhunvqOJ30AjSkywMXA==}
     dev: true
 
   /@tsconfig/vite-react/1.0.1:
