@@ -3,7 +3,7 @@ type Result<T> =
   | { ok: false; error: Error }
 
 // https://twitter.com/mattpocockuk/status/1633064377518628866
-export const makeSafe = <TArgs extends any[], TReturn>(func: (...args: TArgs) => TReturn) => {
+export function makeSafe<TArgs extends any[], TReturn>(func: (...args: TArgs) => TReturn) {
   return (...args: TArgs): Result<TReturn> => {
     try {
       return {
