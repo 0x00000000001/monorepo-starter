@@ -6,12 +6,12 @@ services:
       args:
         USERNAME: node
         VARIANT: 18
-    env_file: ../.env
+    # env_file: ../.env
     command: sleep infinity
     volumes:
       - ..:/workspace:cached
-      - node-modules:/workspace/node_modules
-      - pnpm-store:/workspace/.pnpm-store
+      # - node-modules:/workspace/node_modules
+      # - pnpm-store:/workspace/.pnpm-store
       # - vscode-extensions:/home/node/.vscode-server/extensions
 
 
@@ -31,8 +31,8 @@ services:
   #     - postgres-data:/var/lib/postgresql/data
 
 volumes:
-  node-modules:
-  pnpm-store:
+  # node-modules:
+  # pnpm-store:
   # postgres-data:
   # redis-data:
   # vscode-extensions:
