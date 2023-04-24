@@ -1,6 +1,6 @@
 {
   "name": "workspace",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "packageManager": "pnpm@8.3.1",
   "description": "Monorepo starter",
@@ -30,13 +30,13 @@
     "@commitlint/cli": "^17.6.1",
     "@total-typescript/ts-reset": "^0.4.2",
     "@vitest/coverage-c8": "^0.30.1",
-    "@workspace/commitlint-config": "^0.2.0",
-    "@workspace/eslint-config": "^0.2.0",
-    "@workspace/typescript-config": "^0.2.0",
+    "@workspace/commitlint-config": "workspace:*",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "check-export-map": "^1.3.0",
     "eslint": "^8.39.0",
     "husky": "^8.0.3",
-    "rimraf": "^4.4.1",
+    "rimraf": "^5.0.0",
     "tsup": "^6.7.0",
     "tsx": "^3.12.6",
     "turbo": "^1.9.3",
@@ -44,7 +44,7 @@
     "unbuild": "^1.2.1",
     "vite": "^4.3.1",
     "vite-plugin-dts": "^2.3.0",
-    "vitest": "^0.29.8"
+    "vitest": "^0.30.1"
   },
   "commitlint": {
     "extends": "@workspace",
