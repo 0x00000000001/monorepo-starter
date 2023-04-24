@@ -1,6 +1,6 @@
 {
   "name": "workspace",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "packageManager": "pnpm@8.3.1",
   "description": "Monorepo starter",
@@ -29,6 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.1",
     "@total-typescript/ts-reset": "^0.4.2",
+    "@vitest/coverage-c8": "^0.30.1",
     "@workspace/commitlint-config": "^0.2.0",
     "@workspace/eslint-config": "^0.2.0",
     "@workspace/typescript-config": "^0.2.0",
