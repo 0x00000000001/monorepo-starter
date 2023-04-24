@@ -6,7 +6,7 @@ interface CounterProps {
   onClick: (count: number) => void
 }
 
-export const Counter = ({ onClick }: CounterProps) => {
+export function Counter({ onClick }: CounterProps) {
   const [count, setCount] = useState(0)
 
   return (

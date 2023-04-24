@@ -33,7 +33,7 @@ const postCount = makeSafe(async (count: number) => {
   return data
 })
 
-export const App = () => {
+export function App() {
   const [data, setData] = useState<Record<string, any> | null>(null)
   const [isLoading, setIsLoading] = useState<boolean>(true)
 
